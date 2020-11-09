@@ -28,7 +28,7 @@ $( document ).ready(function() {
 
 // Attendi 30 secondi
 
-var counter = setInterval(timer, 100);
+var counter = setInterval(timer, 1000);
 var count = 30;
 function timer() {
   if(count > 0) {
